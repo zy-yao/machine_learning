@@ -11,8 +11,8 @@ import numpy as np
 # Hyper Parameters
 EPOCH = 10
 BATCH_SIZE = 64
-LR = 0.005         # learning rate
-DOWNLOAD_MNIST = False
+LR = 0.005         
+DOWNLOAD_MNIST = False #you may set it to true, if it's the first time use Mnist dataset
 N_TEST_IMG = 5
 
 # Mnist digits dataset
