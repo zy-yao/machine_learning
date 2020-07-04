@@ -7,7 +7,6 @@ from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 import numpy as np
 
-
 # Hyper Parameters
 EPOCH = 10
 BATCH_SIZE = 64
