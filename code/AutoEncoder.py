@@ -33,7 +33,6 @@ plt.show()
 # Data Loader for easy mini-batch return in training, the image batch shape will be (50, 1, 28, 28)
 train_loader = Data.DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=True)
 
-
 class AutoEncoder(nn.Module):
     def __init__(self):
         super(AutoEncoder, self).__init__()
