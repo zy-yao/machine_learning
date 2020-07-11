@@ -15,5 +15,13 @@ loader =Data.DataLoader(dataset = torch_dataset,
                        shuffle = True,
                        num_workers = 2) #shuffle is to decide whether disorder the data
                                         #num_work means number of process threads used
+for epoch in range(3):
+    for step, (batch_x, batch_y) in  enumerate(loader):
+        print('Epoch: ', epoch, '| Step: ', step, '| batch x: ',
+                  batch_x.numpy(), '| batch y: ', batch_y.numpy())
+        
+    
+    
+    
                                         
                                         
